@@ -74,7 +74,7 @@ namespace point.api.Controllers
             return NoContent();
         }
 
-
+        //http://localhost:57090/
         [HttpPost]
         [Route("Login")]
         public async Task<ActionResult<User>> Login(LoginrRequest model)
